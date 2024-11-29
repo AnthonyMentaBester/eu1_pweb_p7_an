@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(124, 123, 123);
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+
+}
+p:focus{
+
+    border: none black;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+input{
+    padding: 2px 30px 2px 2px;
+}
+
+p{
+
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.formulario{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    height: 600px;
+    padding: 20px 50px 80px 15px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#idjsoninput{
+    border-radius: 5px;   
+    padding: 30px 20px 40px 2px;
+}
+
+.titulo{
+
+}
+.guardar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+#idpro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
