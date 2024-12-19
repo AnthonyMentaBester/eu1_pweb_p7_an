@@ -5,8 +5,9 @@ var obj = {
 }
 
 const agregar = (idcedula,idnombre,idapellido,idrespuesta)=>{
+    
     document.getElementById(idcedula)
-    document.getElementById(iapellido)
+    document.getElementById(idapellido)
     document.getElementById(idrespuesta)
     document.getElementById(idnombre)
     
